@@ -25,17 +25,21 @@ body {
 .person {
     padding: 32px;
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
+    /* justify-content: center; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 22px;
 }
 
-.person__photo {}
+.person__photo {
+    margin-right: 32px;
+}
 
 .person__name {
     margin: 0;
     font-size: 36px;
+    font-weight: normal;
 }
 
 .person__position {
@@ -44,6 +48,10 @@ body {
     font-weight: normal;
     font-style: italic;
     color: #545454;
+}
+
+.person__description {
+    margin-bottom: 24px;
 }
 
 .person__social-media {}
