@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wizytówka</title>
     <link rel="stylesheet" href="normalize.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <main class="main">
-      <article class="person">
-        <img class="person__photo" src="avatar.png" alt="Zdjęcie profilowe" />
-        <div>
-          <header>
-            <h1 class="person__name">Marta Lang</h1>
-            <h2 class="person__position">frontend developer</h2>
-          </header>
-          <p class="person__description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
-            praesentium earum ipsa repudiandae beatae cum nobis mollitia animi!
-            Quia nisi quo quibusdam iusto, amet deserunt reprehenderit eligendi
-            sint commodi distinctio.
-          </p>
-          <p class="person__social-media">
-            W sieci: facebook, GitHub, LinkedIn
-          </p>
-        </div>
-      </article>
+        <article class="person">
+            <img class="person__photo" src="avatar.png" alt="Zdjęcie profilowe" />
+            <div>
+                <header>
+                    <h1 class="person__name">Marta Lang</h1>
+                    <h2 class="person__position">frontend developer</h2>
+                </header>
+                <p class="person__description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
+                    praesentium earum ipsa repudiandae beatae cum nobis mollitia animi!
+                    Quia nisi quo quibusdam iusto, amet <span class="special-text">deserunt reprehenderit</span>
+                    eligendi
+                    sint commodi distinctio.
+                </p>
+                <p class="person__social-media">
+                    W sieci: <a class="person__social-media--link" href="#">facebook</a>, <a
+                        class="person__social-media--link" href="#">GitHub</a>, <a class="person__social-media--link"
+                        href="#">LinkedIn</a>.
+                </p>
+            </div>
+        </article>
     </main>
-  </body>
+</body>
+
 </html>

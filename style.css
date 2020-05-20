@@ -9,16 +9,50 @@ html {
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-color: #2C2141;
-
 }
 
 .main {
     background-color: #F8F8F8;
     border-radius: 16px;
+    width: 624px;
 }
 
-article {
+.person {
+    padding: 32px;
     display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
 
+.person__photo {}
+
+.person__name {
+    margin: 0;
+    font-size: 36px;
+}
+
+.person__position {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    color: #545454;
+}
+
+.person__social-media {}
+
+.person__social-media--link {
+    text-decoration: none;
+    color: #E20613;
+}
+
+.special-text {
+    color: #ED6D05;
 }
