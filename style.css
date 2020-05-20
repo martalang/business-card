@@ -1,0 +1,24 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #2C2141;
+
+}
+
+.main {
+    background-color: #F8F8F8;
+    border-radius: 16px;
+}
+
+article {
+    display: flex;
+
+}
